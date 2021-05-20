@@ -1,0 +1,13 @@
+create table LOAN_OFFER
+(
+	ID INTEGER not null
+		primary key,
+	SUM_LOAN DOUBLE,
+	LOAN_ID INTEGER
+		constraint FKBFX7TOU2PU5MRNB0GFR3NXGOB
+			references LOAN,
+	CLIENT_ID INTEGER
+		constraint FKOR6TSUDO4V592S1FV0N0AO0MN
+			references CLIENT
+);
+

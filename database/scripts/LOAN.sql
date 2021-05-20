@@ -1,0 +1,12 @@
+create table LOAN
+(
+	ID INTEGER not null
+		primary key,
+	MAX_LIMIT INTEGER,
+	NAME VARCHAR(255),
+	PERCENT INTEGER,
+	BANK_ID INTEGER
+		constraint FK77MVCYACRALPIO82YLF0Y778N
+			references BANK
+);
+
