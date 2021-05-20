@@ -1,4 +1,5 @@
 For open loans shedule please do double click on the loan offer 
+Run application: spring-boot:run
 
 # MyBank
 
