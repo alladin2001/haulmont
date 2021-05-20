@@ -1,3 +1,5 @@
+For open loans shedule please do double click on the loan offer 
+
 # MyBank
 
 This is an example project that can be used as a starting point to create your own Vaadin application with Spring Boot.
