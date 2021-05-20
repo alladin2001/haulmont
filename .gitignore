@@ -3,6 +3,7 @@
 .settings
 .project
 .classpath
+.jpb
 
 *.iml
 .DS_Store
